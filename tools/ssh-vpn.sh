@@ -161,7 +161,7 @@ cd
 clear 
 
 # Getting websocket ssl stunnel
-wget -q -O /usr/local/bin/ws-stunnel "https://raw.githubusercontent.com/wingsofhope123/agoez09/main/tools/ws-stunnel"
+wget -q -O /usr/local/bin/ws-stunnel "https://raw.githubusercontent.com/wingshope10/Agoez120/main/tools/ws-stunnel"
 chmod +x /usr/local/bin/ws-stunnel
 
 # Installing Service Ovpn Websocket

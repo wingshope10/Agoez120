@@ -17,7 +17,7 @@ export WARNING="${RED}\e[5m"
 export UNDERLINE="\e[4m"
 
 BURIQ () {
-    curl -sS https://raw.githubusercontent.com/wingsofhope123/permission/main/ip > /root/tmp
+    curl -sS https://raw.githubusercontent.com/wingshope10/Agoez120/main/ip > /root/tmp
     data=( `cat /root/tmp | grep -E "^### " | awk '{print $2}'` )
     for user in "${data[@]}"
     do

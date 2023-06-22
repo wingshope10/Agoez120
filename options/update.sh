@@ -96,7 +96,7 @@ echo -e "\e[0;32mNew Version Downloading started!\e[0m"
 sleep 2
 cd /usr/bin
 wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/wingshope10/Agoez120/main/usernew.sh"
-wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/wingshope10/agoez120/main/add-ws.sh"
+wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/wingshope10/Agoez120/main/add-ws.sh"
 wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/wingshope10/Agoez120/main/add-ssws.sh"
 wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/wingshope10/Agoez120/main/add-vless.sh"
 wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/wingshope10/Agoez120/main/add-tr.sh"

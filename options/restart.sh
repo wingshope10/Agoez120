@@ -65,7 +65,7 @@ echo -e "\033[1;93m  >Port ShadowSocks WS      :443\e[0m"
 echo -e "\033[1;93m  >Port ShadowSocks GRPC    :443\e[0m"
 echo -e "\033[1;94m >>>>Service Support Change Port<<<< \e[0m"
 echo -e ""
-echo -e "\033[1;97mOrder AutoScript Lifetime wa.me/6283117634078\e[0m"
+echo -e "\033[1;97mOrder AutoScript Lifetime wa.me/6282261333421\e[0m"
 echo -e ""
 
 clear

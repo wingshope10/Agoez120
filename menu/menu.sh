@@ -159,7 +159,7 @@ echo -e " ${BICyan}│  ${BICyan}OS VPS          :  "`hostnamectl | grep "Operat
 echo -e " ${BICyan}│  ${BICyan}Current Domain  :  ${BIBlue}$(cat /etc/xray/domain)${NC}"
 echo -e " ${BICyan}│  ${BICyan}SLOWDNS Domain  :  ${BIBlue}$(cat /root/nsdomain)${NC}"
 echo -e " ${BICyan}│  ${BICyan}IP-VPS          :  ${BIBlue}$IPVPS${NC}"
-echo -e " ${BICyan}│  ${BICyan}ISP-VPS         :  ${BIBlue}$ISPVPS${NC}"
+echo -e " ${BICyan}│  ${BICyan}ISP-Name        :  ${BIBlue}$ISP${NC}"
 echo -e " ${BICyan}│  ${BICyan}DATE&TIME       :  $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"

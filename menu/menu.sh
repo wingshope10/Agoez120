@@ -165,7 +165,7 @@ echo -e " ${BICyan}└───────────────────�
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "     ${BICyan}          DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIGreen}1${BICyan}]${GREEN} SSH ${NC}" 
+echo -e "     ${BICyan}[${BIGreen}1${BICyan}]${GREEN} SSH/UDP/SlowDNS ${NC}" 
 echo -e "     ${BICyan}[${BIGreen}2${BICyan}]${GREEN} VMESS ${NC}"    
 echo -e "     ${BICyan}[${BIGreen}3${BICyan}]${GREEN} VLESS ${NC}"    
 echo -e "     ${BICyan}[${BIGreen}4${BICyan}]${GREEN} TROJAN ${NC}" 

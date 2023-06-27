@@ -164,7 +164,7 @@ ISPVPS=$( curl -s ipinfo.io/org )
 UDPX="https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2"
 clear
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │  ${BICyan}Use Core        :  ${BIGreen}Pertamax Multiport ${NC}" 
+echo -e "${BICyan} │  ${BICyan}Use Core        :  ${BIGreen}Wings Tunneling ${NC}" 
 echo -e " ${BICyan}│  ${BICyan}OS VPS          :  "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-` $NC
 echo -e " ${BICyan}│  ${BICyan}Current Domain  :  ${BIBlue}$(cat /etc/xray/domain)${NC}"
 echo -e " ${BICyan}│  ${BICyan}SLOWDNS Domain  :  ${BIBlue}$(cat /root/nsdomain)${NC}"

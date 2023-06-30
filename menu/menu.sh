@@ -164,13 +164,13 @@ ISPVPS=$( curl -s ipinfo.io/org )
 UDPX="https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2"
 clear
 echo -e "${BIRed} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BIRed} │  ${BIPurple}Use Core       : ${BIRed}Wings Tunneling ${NC}" 
-echo -e " ${BIRed}│  ${BIPurple}OS VPS         : "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-` $NC
-echo -e " ${BIRed}│  ${BIPurple}Current Domain : ${BIRed}$(cat /etc/xray/domain)${NC}"
-echo -e " ${BIRed}│  ${BIPurple}SLOWDNS Domain : ${BIRed}$(cat /root/nsdomain)${NC}"
-echo -e " ${BIRed}│  ${BIPurple}IP-VPS         : ${BIRed}$IPVPS${NC}"
-echo -e " ${BIRed}│  ${BIPurple}ISP-Name       : ${BIRed}$ISPVPS${NC}"
-echo -e " ${BIRed}│  ${BIPurple}DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
+echo -e "${BIRed} │  ${BIRed}   Use Core       : ${BIGreen}Wings Tunneling ${NC}" 
+echo -e " ${BIRed}│  ${BIRed}   OS VPS         : "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-` $NC
+echo -e " ${BIRed}│  ${BIRed}   Current Domain : ${BIGreen}$(cat /etc/xray/domain)${NC}"
+echo -e " ${BIRed}│  ${BIRed}   SLOWDNS Domain : ${BIGreen}$(cat /root/nsdomain)${NC}"
+echo -e " ${BIRed}│  ${BIRed}   IP-VPS         : ${BIGreen}$IPVPS${NC}"
+echo -e " ${BIRed}│  ${BIRed}   ISP-Name       : ${BIGreen}$ISPVPS${NC}"
+echo -e " ${BIRed}│  ${BIGreen} DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
 echo -e " ${BIRed}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${PURPLE}┌─────────────────────────────────────────────────────┐${NC}" 
 echo -e "${PURPLE}│  \033[0m ${BOLD}${PURPLE}SSH     VMESS       VLESS      TROJAN $NC" 

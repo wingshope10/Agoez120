@@ -177,8 +177,8 @@ echo -e "${PURPLE} │  \033[0m ${BOLD}${PURPLE}SSH     VMESS       VLESS      T
 echo -e "${PURPLE} │  \033[0m ${Blue} $ssh1        $vma           $vla          $tra $NC" 
 echo -e "${PURPLE} └──────────────────────────────────────────────────┘${NC}" 
 
-echo -e "     ${BIRed}   SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
-echo -e "     ${BIRed}           DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
+echo -e "    ${BIRed}   SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
+echo -e "    ${BIRed}           DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"
 echo -e "${BIRed}  ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "     ${BIRed} [${BIGreen}1${BIPurple}]${RED} SSH/UDP/SlowDNS ${NC}" 
 echo -e "     ${BIRed} [${BIGreen}2${BIPurple}]${RED} VMESS ${NC}"    
@@ -199,7 +199,7 @@ datediff() {
     echo -e "  ${BIPurple}│$NC  Expiry In     : $(( (d1 - d2) / 86400 )) Days $NC"
 }
 mai="datediff "$Exp" "$DATE""
-echo -e " ${BIRed} ┌─────────────────────────────────────┐${NC}"
+echo -e " ${BIRed} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e " ${BIRed} │  Version       : $(cat /opt/.ver) Last Update ${NC}"
 echo -e " ${BIRed} │  User          :\033[1;36m $Name \e[0m"
 if [ $exp \< 1000 ];
@@ -208,7 +208,7 @@ echo -e "  ${BIRed}│$NC License     :${PURPLE}$sisa_hari$NC Days Tersisa $NC"
 else
     datediff "$Exp" "$DATE"
 fi;
-echo -e " ${BIRed} └─────────────────────────────────────┘${NC}"
+echo -e " ${BIRed} └─────────────────────────────────────────────────────┘${NC}"
 echo
 read -p " Select menu : " opt
 echo -e ""

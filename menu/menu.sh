@@ -163,15 +163,15 @@ IPVPS=$(curl -s ipinfo.io/ip )
 ISPVPS=$( curl -s ipinfo.io/org )
 UDPX="https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2"
 clear
-echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │  ${BICyan}Use Core        :  ${BIGreen}Wings Tunneling ${NC}" 
-echo -e " ${BICyan}│  ${BICyan}OS VPS          :  "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-` $NC
-echo -e " ${BICyan}│  ${BICyan}Current Domain  :  ${BIBlue}$(cat /etc/xray/domain)${NC}"
-echo -e " ${BICyan}│  ${BICyan}SLOWDNS Domain  :  ${BIBlue}$(cat /root/nsdomain)${NC}"
-echo -e " ${BICyan}│  ${BICyan}IP-VPS          :  ${BIBlue}$IPVPS${NC}"
-echo -e " ${BICyan}│  ${BICyan}ISP-Name        :  ${BIBlue}$ISPVPS${NC}"
-echo -e " ${BICyan}│  ${BICyan}DATE&TIME       :  $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
-echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
+echo -e "${BIRed} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIRed} │  ${BICyan}Use Core        :  ${BIGreen}Wings Tunneling ${NC}" 
+echo -e " ${BIRed}│  ${BICyan}OS VPS          :  "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-` $NC
+echo -e " ${BIRed}│  ${BICyan}Current Domain  :  ${BIBlue}$(cat /etc/xray/domain)${NC}"
+echo -e " ${BIRed}│  ${BICyan}SLOWDNS Domain  :  ${BIBlue}$(cat /root/nsdomain)${NC}"
+echo -e " ${BIRed}│  ${BICyan}IP-VPS          :  ${BIBlue}$IPVPS${NC}"
+echo -e " ${BIRed}│  ${BICyan}ISP-Name        :  ${BIBlue}$ISPVPS${NC}"
+echo -e " ${BIRed}│  ${BICyan}DATE&TIME       :  $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
+echo -e " ${BIRed}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${GREEN}  ┌──────────────────────────────────────────────────┐${NC}" 
 echo -e "${GREEN}  │  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN $NC" 
 echo -e "${GREEN}  │  \033[0m ${Blue} $ssh1        $vma           $vla          $tra $NC" 

@@ -204,7 +204,7 @@ echo -e " ${BIRed} │  Version       : $(cat /opt/.ver) Last Update ${NC}"
 echo -e " ${BIRed} │  User          :\033[1;36m $Name \e[0m"
 if [ $exp \< 1000 ];
 then
-echo -e "  ${BIRed}│$NC License     :${PURPLE}$sisa_hari$NC Sisa Nyawa $NC"
+echo -e "  ${BIRed}│$NC License     :${PURPLE}$sisa_hari$NC Days Tersisa $NC"
 else
     datediff "$Exp" "$DATE"
 fi;

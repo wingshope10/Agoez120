@@ -179,7 +179,7 @@ echo -e "${PURPLE}└───────────────────�
 
 echo -e "    ${BIRed}   SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
 echo -e "    ${BIRed}           DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"
-echo -e "${BIRed}  ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIRed} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "     ${BIRed} [${BIGreen}1${BIPurple}]${RED} SSH/UDP/SlowDNS ${NC}" 
 echo -e "     ${BIRed} [${BIGreen}2${BIPurple}]${RED} VMESS ${NC}"    
 echo -e "     ${BIRed} [${BIGreen}3${BIPurple}]${RED} VLESS ${NC}"    
@@ -191,7 +191,7 @@ echo -e "     ${BIRed} [${BIGreen}8${BIPurple}]${RED} INFO SCRIPT ${NC}"
 echo -e "     ${BIRed} [${BIGreen}9${BIPurple}]${RED} INFO SERVER ${NC}"    
 echo -e "     ${BIRed} [${BIGreen}10${BIPurple}]${RED}INSTAL UDP ${NC}" 
 echo -e "     ${BIRed} [${BIGreen}x${BIPurple}]${RED} EXIT ${NC}"  
-echo -e "${BIRed}  └─────────────────────────────────────────────────────┘${NC}"
+echo -e "${BIRed} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)

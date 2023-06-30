@@ -172,7 +172,7 @@ echo -e " ${BIRed}│  ${BIPurple}IP-VPS         : ${BIRed}$IPVPS${NC}"
 echo -e " ${BIRed}│  ${BIPurple}ISP-Name       : ${BIRed}$ISPVPS${NC}"
 echo -e " ${BIRed}│  ${BIPurple}DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
 echo -e " ${BIRed}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "${GREEN}  ┌──────────────────────────────────────────────────┐${NC}" 
+echo -e "${PURPLE} ┌──────────────────────────────────────────────────┐${NC}" 
 echo -e "${PURPLE} │  \033[0m ${BOLD}${PURPLE}SSH     VMESS       VLESS      TROJAN $NC" 
 echo -e "${PURPLE} │  \033[0m ${Blue} $ssh1        $vma           $vla          $tra $NC" 
 echo -e "${PURPLE} └──────────────────────────────────────────────────┘${NC}" 
@@ -196,7 +196,7 @@ DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
     d2=$(date -d "$2" +%s)
-    echo -e " ${BIPurple}│$NC  Expiry In     : $(( (d1 - d2) / 86400 )) Days $NC"
+    echo -e "  ${BIPurple}│$NC  Expiry In     : $(( (d1 - d2) / 86400 )) Days $NC"
 }
 mai="datediff "$Exp" "$DATE""
 echo -e " ${BIRed} ┌─────────────────────────────────────┐${NC}"

@@ -172,10 +172,10 @@ echo -e " ${BIRed}│  ${BIRed}   IP-VPS         : ${BIGreen}$IPVPS${NC}"
 echo -e " ${BIRed}│  ${BIRed}   ISP-Name       : ${BIGreen}$ISPVPS${NC}"
 echo -e " ${BIRed}│  ${BIGreen} DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
 echo -e " ${BIRed}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "${PURPLE}┌─────────────────────────────────────────────────────┐${NC}" 
-echo -e "${PURPLE}│  \033[0m ${BOLD}${PURPLE}SSH     VMESS       VLESS      TROJAN $NC" 
-echo -e "${PURPLE}│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra $NC" 
-echo -e "${PURPLE}└─────────────────────────────────────────────────────┘${NC}" 
+echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}" 
+echo -e "${PURPLE} │  \033[0m ${BOLD}${PURPLE}SSH     VMESS       VLESS      TROJAN $NC" 
+echo -e "${PURPLE} │  \033[0m ${Blue} $ssh1        $vma           $vla          $tra $NC" 
+echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}" 
 
 echo -e "    ${BIRed}   SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
 echo -e "    ${BIRed}           DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"
@@ -196,7 +196,7 @@ DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
     d2=$(date -d "$2" +%s)
-    echo -e "     ${BIRed}│$NC  Expiry In     : $(( (d1 - d2) / 86400 )) Days $NC"
+    echo -e " ${BIRed}│$NC  Expiry In     : $(( (d1 - d2) / 86400 )) Days $NC"
 }
 mai="datediff "$Exp" "$DATE""
 echo -e " ${BIRed} ┌─────────────────────────────────────────────────────┐${NC}"

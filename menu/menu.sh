@@ -177,8 +177,8 @@ echo -e "${PURPLE} │  \033[0m ${BOLD}${PURPLE}  SSH      VMESS       VLESS    
 echo -e "${PURPLE} │  \033[0m ${Blue} $ssh1          $vma           $vla          $tra $NC" 
 echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}" 
 
-echo -e " ${BIPurple}   SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
-echo -e " ${BIPurple}           DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"
+echo -e " ${BIPurple}    SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
+echo -e " ${BIPurple}            DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"
 echo -e "${BIRed}  ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "   ${BIRed} [${BIGreen}1${BIRed}]${GREEN} SSH/UDP/SlowDNS ${NC}" 
 echo -e "   ${BIRed} [${BIGreen}2${BIRed}]${GREEN} VMESS ${NC}"    

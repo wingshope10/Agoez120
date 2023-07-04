@@ -174,7 +174,7 @@ echo -e " ${BIRed}│  ${BIGreen}   DATE&TIME      : $( date -d "0 days" +"%d-%m
 echo -e " ${BIRed}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}" 
 echo -e "${PURPLE} │  \033[0m ${BOLD}${PURPLE}   SSH      VMESS       VLESS      TROJAN $NC" 
-echo -e "${PURPLE} │  \033[0m ${Blue} $ssh1           $vma           $vla          $tra $NC" 
+echo -e "${PURPLE} │  \033[0m ${Blue}    $ssh1           $vma           $vla          $tra $NC" 
 echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}" 
 
 echo -e " ${BIPurple}    SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"

@@ -204,9 +204,9 @@ echo -e "   ${BIRed} [${BIGreen}9${BIRed}]${GREEN} INFO SERVER ${NC}"
 echo -e "   ${BIRed} [${BIGreen}10${BIRed}]${GREEN}INSTAL UDP ${NC}" 
 echo -e "   ${BIRed} [${BIGreen}x${BIRed}]${GREEN} EXIT ${NC}"  
 echo -e "${BIRed}  └─────────────────────────────────────────────────────┘${NC}"
- echo -e "${BIRed}  ┌─────────────────────────────────────────────────────┐${NC}" 
- echo -e "${BIRed}  │   ${BIGreen}   HARI ini${NC}: ${red}$ttoday$NC ${BIGreen}KEMARIN${NC}: ${red}$tyest$NC ${BIGreen}BULAN${NC}: ${red}$tmon$NC $NC" 
- echo -e "${BIRed}  └─────────────────────────────────────────────────────┘${NC}"
+ echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}" 
+ echo -e "${PURPLE} │   ${BIGreen}   HARI ini${NC}: ${red}$ttoday$NC ${BIGreen}KEMARIN${NC}: ${red}$tyest$NC ${BIGreen}BULAN${NC}: ${red}$tmon$NC $NC" 
+ echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)

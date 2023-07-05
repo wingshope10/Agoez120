@@ -175,19 +175,19 @@ IPVPS=$(curl -s ipinfo.io/ip )
 ISPVPS=$( curl -s ipinfo.io/org )
 UDPX="https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2"
 clear
-echo -e "${BIRed} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BIRed} │  ${BIRed}   Use Core       : ${BIGreen}Wings Tunneling ${NC}" 
-echo -e " ${BIRed}│  ${BIRed}   OS VPS         : "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-` $NC
-echo -e " ${BIRed}│  ${BIRed}   Current Domain : ${BIGreen}$(cat /etc/xray/domain)${NC}"
-echo -e " ${BIRed}│  ${BIRed}   SLOWDNS Domain : ${BIGreen}$(cat /root/nsdomain)${NC}"
-echo -e " ${BIRed}│  ${BIRed}   IP-VPS         : ${BIGreen}$IPVPS${NC}"
-echo -e " ${BIRed}│  ${BIRed}   ISP-Name       : ${BIGreen}$ISPVPS${NC}"
-echo -e " ${BIRed}│  ${BIGreen}   DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
-echo -e " ${BIRed}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}" 
-echo -e "${PURPLE} │  \033[0m ${BOLD}${PURPLE}   SSH      VMESS       VLESS      TROJAN $NC" 
-echo -e "${PURPLE} │  \033[0m ${Blue}    $ssh1         $vma           $vla           $tra $NC" 
-echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}" 
+echo -e "${BIRed}  ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIRed}  │  ${BIRed}   Use Core       : ${BIGreen}Wings Tunneling ${NC}" 
+echo -e " ${BIRed} │  ${BIRed}   OS VPS         : "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-` $NC
+echo -e " ${BIRed} │  ${BIRed}   Current Domain : ${BIGreen}$(cat /etc/xray/domain)${NC}"
+echo -e " ${BIRed} │  ${BIRed}   SLOWDNS Domain : ${BIGreen}$(cat /root/nsdomain)${NC}"
+echo -e " ${BIRed} │  ${BIRed}   IP-VPS         : ${BIGreen}$IPVPS${NC}"
+echo -e " ${BIRed} │  ${BIRed}   ISP-Name       : ${BIGreen}$ISPVPS${NC}"
+echo -e " ${BIRed} │  ${BIGreen}   DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
+echo -e " ${BIRed} └─────────────────────────────────────────────────────┘${NC}"
+echo -e "${PURPLE}  ┌─────────────────────────────────────────────────────┐${NC}" 
+echo -e "${PURPLE}  │  \033[0m ${BOLD}${PURPLE}   SSH      VMESS       VLESS      TROJAN $NC" 
+echo -e "${PURPLE}  │  \033[0m ${Blue}    $ssh1         $vma           $vla           $tra $NC" 
+echo -e "${PURPLE}  └─────────────────────────────────────────────────────┘${NC}" 
 
 echo -e " ${BIPurple}    SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
 echo -e " ${BIPurple}            DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"

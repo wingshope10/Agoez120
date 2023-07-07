@@ -28,5 +28,6 @@
 ✅ Vmess WS none TLS : 80 <br>
 ✅ Vless WS none TLS : 80 <br>
 ✅ Stunnel4 : 447,777 <br>
-✅ UDP&DNS
+✅ UDP&DN
+
 ![Screenshot_2023-07-07-10-49-50-711_com server auditor ssh client-edit](https://github.com/wingshope10/Agoez120/assets/137362720/90f97f08-bbfd-4e4e-8edf-4ba928bd8231)

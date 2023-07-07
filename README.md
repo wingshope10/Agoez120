@@ -1,4 +1,4 @@
-# Wings XRAY V2
+# Wings XRAY V2.1
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt upgrade && apt install -y bzip2 gzip coreutils screen curl unzip && wget -q https://raw.githubusercontent.com/wingshope10/Agoez120/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
 
 ## HARGA AUTOSCRIPT
@@ -29,3 +29,4 @@
 ✅ Vless WS none TLS : 80 <br>
 ✅ Stunnel4 : 447,777 <br>
 ✅ UDP&DNS
+![Screenshot_2023-07-07-10-49-50-711_com server auditor ssh client-edit](https://github.com/wingshope10/Agoez120/assets/137362720/90f97f08-bbfd-4e4e-8edf-4ba928bd8231)

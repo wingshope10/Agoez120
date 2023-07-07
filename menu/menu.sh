@@ -182,7 +182,7 @@ echo -e " ${BIRed} │  ${BIRed}   OS VPS         : "`hostnamectl | grep "Operat
 echo -e " ${BIRed} │  ${BIRed}   Current Domain : ${BIGreen}$(cat /etc/xray/domain)${NC}"
 echo -e " ${BIRed} │  ${BIRed}   SLOWDNS Domain : ${BIGreen}$(cat /root/nsdomain)${NC}"
 echo -e " ${BIRed} │  ${BIRed}   IP-VPS         : ${BIGreen}$IPVPS${NC}"
-echo -e " ${BIRed} │  ${BIRed}   ISP-Name       : ${BIGreen}$ISPVPS${NC}"
+echo -e " ${BIRed} │  ${BIRed}   ISP-Name       : ${BIGreen}$ISP${NC}"
 echo -e " ${BIRed} │  ${BIGreen}   DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
 echo -e " ${BIRed} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${PURPLE}  ┌─────────────────────────────────────────────────────┐${NC}" 

@@ -183,15 +183,15 @@ echo -e " ${PURPLE}│  ${PURPLE}  Current Domain : ${BIGreen}$(cat /etc/xray/do
 echo -e " ${PURPLE}│  ${PURPLE}  SLOWDNS Domain : ${BIGreen}$(cat /root/nsdomain)${NC}"
 echo -e " ${PURPLE}│  ${PURPLE}  IP-VPS         : ${BIGreen}$IPVPS${NC}"
 echo -e " ${PURPLE}│  ${PURPLE}  ISP-Name       : ${BIGreen}$ISP${NC}"
-echo -e " ${PURPLE}│  ${BIGreen}   DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
+echo -e " ${PURPLE}│  ${BIGreen}  DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
 echo -e " ${PURPLE}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "${PURPLE}  ┌─────────────────────────────────────────────────────┐${NC}" 
-echo -e "${PURPLE}  │  \033[0m ${BOLD}${PURPLE}    SSH      VMESS       VLESS      TROJAN $NC" 
-echo -e "${PURPLE}  │  \033[0m ${Blue}     $ssh1         $vma           $vla           $tra $NC" 
-echo -e "${PURPLE}  └─────────────────────────────────────────────────────┘${NC}" 
+echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}" 
+echo -e "${PURPLE} │ \033[0m ${BOLD}${PURPLE}    SSH      VMESS       VLESS      TROJAN $NC" 
+echo -e "${PURPLE} │ \033[0m ${Blue}     $ssh1         $vma           $vla           $tra $NC" 
+echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}" 
 
-echo -e " ${BIPurple}     SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
-echo -e " ${BIPurple}             DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"
+echo -e " ${BIPurple}    SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
+echo -e " ${BIPurple}            DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"
 echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "   ${BIRed}  [${BIGreen}1${BIRed}]${GREEN} SSH/UDP/SlowDNS ${NC}" 
 echo -e "   ${BIRed}  [${BIGreen}2${BIRed}]${GREEN} VMESS ${NC}"    
@@ -205,9 +205,9 @@ echo -e "   ${BIRed}  [${BIGreen}9${BIRed}]${GREEN} INFO SERVER ${NC}"
 echo -e "   ${BIRed}  [${BIGreen}10${BIRed}]${GREEN}INSTAL UDP ${NC}" 
 echo -e "   ${BIRed}  [${BIGreen}x${BIRed}]${GREEN} EXIT ${NC}"  
 echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}"
- echo -e "${PURPLE}  ┌─────────────────────────────────────────────────────┐${NC}" 
- echo -e "${PURPLE}  │     ${BIGreen}     HARI ini${NC}: ${red}$ttoday$NC ${BIGreen}KEMARIN${NC}: ${red}$tyest$NC ${BIGreen}BULAN${NC}: ${red}$tmon$NC $NC" 
- echo -e "${PURPLE}  └─────────────────────────────────────────────────────┘${NC}"
+ echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}" 
+ echo -e "${PURPLE} │     ${BIGreen}     HARI ini${NC}: ${red}$ttoday$NC ${BIGreen}KEMARIN${NC}: ${red}$tyest$NC ${BIGreen}BULAN${NC}: ${red}$tmon$NC $NC" 
+ echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
@@ -215,16 +215,16 @@ datediff() {
     echo -e "  ${BIRed}│$NC  Expiry In     : $(( (d1 - d2) / 86400 )) Days $NC"
 }
 mai="datediff "$Exp" "$DATE""
-echo -e " ${BIRed} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e " ${BIRed} │  Version       : $(cat /opt/.ver) Last Update ${NC}"
-echo -e " ${BIRed} │  User          :\033[1;36m $Name \e[0m"
+echo -e " ${PURPLE}┌─────────────────────────────────────────────────────┐${NC}"
+echo -e " ${PURPLE}│  Version       : $(cat /opt/.ver) Last Update ${NC}"
+echo -e " ${PURPLE}│  User          :\033[1;36m $Name \e[0m"
 if [ $exp \< 1000 ];
 then
-echo -e "  ${BIRed}│$NC License     :${PURPLE}$sisa_hari$NC Days Tersisa $NC"
+echo -e " ${PURPLE}│$NC License     :${PURPLE}$sisa_hari$NC Days Tersisa $NC"
 else
     datediff "$Exp" "$DATE"
 fi;
-echo -e " ${BIRed} └─────────────────────────────────────────────────────┘${NC}"
+echo -e " ${PURPLE}└─────────────────────────────────────────────────────┘${NC}"
 echo
 read -p " Select menu : " opt
 echo -e ""

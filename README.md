@@ -4,7 +4,7 @@
 ## HARGA AUTOSCRIPT
 ### _1 Bulan 10k_
 ### _Lifetime 2x ganti ip 40K_
-### _Source script 400k_
+### _Source script 250k_
 
 ## Silahkan Hubungi
 ### https://wa.me/6282261333421
@@ -28,3 +28,4 @@
 ✅ Vmess WS none TLS : 80 <br>
 ✅ Vless WS none TLS : 80 <br>
 ✅ Stunnel4 : 447,777 <br>
+✅ UDP&DNS
